@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  background: url(../public/images/bg1.png);
+  background: url(../public/images/bg-landing.png);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -21,13 +21,36 @@ body {
 }
 
 .card {
-  /* background: url(../public/images/bg2.png); */
   height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.linkCardLanding:hover svg {
+.linkCardLanding:hover svg,
+.linkTable:hover svg {
   translate: 4px 0;
+}
+
+.starSix {
+  left: -6%;
+  top: 70%;
+}
+
+.starFour {
+  left: -4.5%;
+  top: 80%;
+}
+
+.textCrypto {
+  height: 60vh;
+}
+
+.firstItem {
+  translate: 20% 0;
+}
+
+.secondItem {
+  translate: 20% 0;
+}
+
+.miniChart path {
+  stroke: url("#grad1") !important;
 }
