@@ -163,7 +163,7 @@ export async function getStaticProps() {
 
   const responseData = await response.json();
 
-  let coins: any = responseData.coins
+  let coins: any = responseData.coins;
 
   for (let i = 0; i < responseData.coins.length; i++) {
     const req = await fetch(`${BASE_URL_PRICE}${responseData.coins[i].id}`);
